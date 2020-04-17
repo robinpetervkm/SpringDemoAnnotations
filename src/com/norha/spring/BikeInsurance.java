@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component("myInsurance")
 public class BikeInsurance implements Insurance {
-	@Autowired
+	
 	private Offers currentOffer;
 	
 	@Override
@@ -17,5 +17,11 @@ public class BikeInsurance implements Insurance {
 	public String showStatus() {
 		return "Your Bike is Insured";
 	}
+	
+	@Autowired
+	public void setCurrentOffer(Offers currentOffer) {
+		this.currentOffer = currentOffer;
+	}
+	
 
 }
