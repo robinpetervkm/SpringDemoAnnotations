@@ -2,7 +2,7 @@ package com.norha.spring;
 
 import org.springframework.stereotype.Component;
 
-@Component("myInsurance")
+@Component
 public class BikeInsurance implements Insurance {
 	
 	@Override
