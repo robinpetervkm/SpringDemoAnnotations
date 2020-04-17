@@ -10,4 +10,6 @@
 	<bean id="myInsurance" class="com.norha.spring.BikeInsurance">
 	</bean>
 	<bean id="off" class="com.norha.spring.Offers"></bean>
+	
+	<context:annotation-config/>
 </beans> 
