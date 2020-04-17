@@ -7,10 +7,4 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
 
-	<bean id="myInsurance" class="com.norha.spring.BikeInsurance">
-	</bean>
-	<bean id="off" class="com.norha.spring.Offers"></bean>
-	
-	<context:annotation-config/>
-
 </beans> 
