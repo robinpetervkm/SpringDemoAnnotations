@@ -8,9 +8,11 @@ public class BikeInsurance implements Insurance {
 	
 	private Offers currentOffer;
 	
+	@Override
 	public Offers getCurrentOffer() {
 		return currentOffer;
 	}
+	
 	@Autowired
 	public void setCurrentOffer(Offers currentOffer) {
 		this.currentOffer = currentOffer;
