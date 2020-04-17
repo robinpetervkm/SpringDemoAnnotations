@@ -1,7 +1,9 @@
 package com.norha.spring;
 
-public class BikeInsurance implements Insurance {
+import org.springframework.beans.factory.annotation.Autowired;
 
+public class BikeInsurance implements Insurance {
+	@Autowired
 	public BikeInsurance(Offers offer) {
 		System.out.println(offer.getOffer());
 	}

@@ -12,4 +12,5 @@
 	<bean id="off" class="com.norha.spring.Offers"></bean>
 	
 	<context:annotation-config/>
+
 </beans> 
