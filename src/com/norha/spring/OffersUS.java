@@ -2,7 +2,7 @@ package com.norha.spring;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("offersUS")
 public class OffersUS implements Offers {
 	@Override
 	public String getOffer() {
